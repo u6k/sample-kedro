@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sample-kedro"
+version = "0.1.0"
+description = ""
+authors = ["u6k.apps@gmail.com"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "sample_kedro"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+kedro = "0.18.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
