@@ -30,7 +30,7 @@ loggers:
   kedro:
     level: INFO
 
-  sample_kedro:
+  iris:
     level: INFO
 
 root:

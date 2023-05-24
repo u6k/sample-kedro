@@ -1,5 +1,5 @@
-"""Sample Kedro file for ensuring the package is executable
-as `sample-kedro` and `python -m sample_kedro`
+"""Iris file for ensuring the package is executable
+as `iris` and `python -m iris`
 """
 import importlib
 from pathlib import Path
