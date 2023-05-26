@@ -10,8 +10,8 @@ from .nodes import *
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([
         node(
-            func=test_step,
+            func=load_data,
             inputs=None,
-            outputs="test",
+            outputs="df_iris",
         )
     ])
